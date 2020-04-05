@@ -1,0 +1,106 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="IDFinderResult.css">
+  <title> 생활관 통합 정보 시스템 [한반도] </title>
+</head>
+<body>
+  <div class="finder">
+  <div class="topContainer">
+    <div class="topLeft">
+      <!-- 타이틀 -->
+      <a href="#">생활관 통합 정보 시스템 [한반도]</a>
+    </div>
+    <div class="topCenter">
+     <!-- 시계, 날씨 -->
+      <a id="clock">현재 시간</a>
+    </div>
+    <div class="topRight">
+      <!-- 로그인 Button -->
+      <button type="button">로그인</button>
+    </div>
+  </div>
+
+  <div class="topNav">
+    <div class="navLeft">
+      <!-- empty -->
+    </div>
+    <div class="navLeftBlock">
+      <!-- 아이디 찾기 탭 -->
+      <img src="Login.png"> 아이디 찾기
+    </div>
+    <div class="navRightBlock">
+      <!-- 패스워드 찾기 탭 -->
+      <img src="Password.png"> 비밀번호 찾기
+    </div>
+    <div class="navRight">
+      <!-- empty -->
+    </div>
+  </div>
+
+  <div class="centerContainer">
+    <div class="centerLeft">
+      <!-- empty -->
+    </div>
+    <div class="centerMain">
+      <!-- 컨텐츠 -->
+      <div class="mainTitle">
+        <!-- 컨텐츠 제목 -->
+        ID(학번) 찾기 결과
+      </div>
+      <div class="mainSubTitle">
+        <!-- 컨텐츠 부제목 -->
+        회원님의 ID(학번)은 다음과 같습니다.
+      </div>
+      <div class="mainContent">
+        <!-- 컨텐츠 내용 -->
+        <a style="font-size:24px;">학번</a><p>
+        <div class="mainFinderResult">
+          <!-- 디자인용 구역 -->
+          <!-- 학번 표시 --> <a style="font-size: 48px;">1502100422</a>
+        </div>
+        <button type="button" onclick="#">로그인</button>&nbsp;&nbsp;&nbsp;
+        <button type="button" onclick="#">비밀번호 찾기</button>
+      </div>
+      <div class="mainAttention">
+        <!-- 경고, 주의사항 -->
+        만약, 본인의 ID(학번)가 아니라면 <a href="mailto:divashuthron@gmail.com">이곳으로</a> 연락해주시기 바랍니다.
+      </div>
+      <div class="mainBottom">
+        <!-- empty -->
+      </div>
+    </div>
+    <div class="centerRight">
+      <!-- empty -->
+    </div>
+  </div>
+
+  <div class="copyright">
+    <!-- Copyright -->
+      Web Design Develop Copyright by RH.BanYeoul ALL RIGHT RESERVED.
+  </div>
+  </div>
+  </body>
+  <script type="text/javascript">
+    var clockTarget=document.getElementById("clock");
+
+    function clock() {
+      var date=new Date();
+      var month=date.getMonth();
+      var clockDate=date.getDate();
+      var day=date.getDay();
+      var week=['일', '월', '화', '수', '목', '금', '토'];
+      var hours=date.getHours();
+      var minutes=date.getMinutes();
+      var seconds=date.getSeconds();
+      clockTarget.innerText=`${month+1}월 ${clockDate}일 ${week[day]}요일 ` +
+        `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
+    }
+
+    function init() {
+      clock();
+      setInterval(clock, 1000);
+    }
+
+    init();
+  </script>
+</html>
