@@ -1,0 +1,90 @@
+@font-face {
+  font-family:"NanumGothic";
+  src: url("NanumGothic.ttf") format("ttf");
+}
+
+body {
+  margin: 0px;
+  font-size: 14px;
+  font-family: "NanumGothic";
+}
+
+body #TopMenuNavVar {
+  display: grid;
+  grid-template-columns: 800px 650px 280px 140px;
+  height: 60px;
+  background: rgb(33, 33, 33);
+  color: rgb(255, 255, 255);
+}
+
+body #TopMenuNavVar .Title {
+  line-height: 60px;
+  font-size: 16px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+body #TopMenuNavVar .Title .TitleEnp {
+  color: rgb(252, 180, 22);
+}
+
+body #TopMenuNavVar .Date {
+  line-height: 60px;
+  font-size: 14px;
+  padding-left: 70px;
+  font-weight: bold;
+}
+
+body #TopMenuNavVar .Date #getDate {
+
+}
+
+body #TopMenuNavVar .Date #getDOW {
+  color: rgb(252, 180, 22);
+}
+
+
+body #TopMenuNavVar .Date #getClock {
+
+}
+
+
+body #TopMenuNavVar #UserData {
+  text-align: right;
+}
+
+body #TopMenuNavVar #UserData .UserImage {
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+body #TopMenuNavVar #UserData .UserImage .Image {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+body #TopMenuNavVar #UserData .UserName .UserNameEnp {
+  font-weight: bold;
+}
+
+body #TopMenuNavVar #UserData .UserName {
+
+}
+
+body #TopMenuNavVar .Logout {
+  line-height: 60px;
+  text-align: center;
+}
+
+body #TopMenuNavVar .Logout .LogoutButton {
+  font-family: "NanumGothic";
+  width: 75px;
+  height: 29px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(252, 180, 22);
+  font-weight: bold;
+  font-size: 14px;
+}
