@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="kr" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
+    <!-- ajax by materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <!--Stylesheet-->
-    <link rel="stylesheet" href="TopMenuNavVar.css">
+    <link rel="stylesheet" href="TopMenuNavBar.css">
+
     <meta charset="utf-8">
     <title>[한반도] 생활관 통합 정보 시스템</title>
   </head>
   <body>
-    <!-- 최상위 div는 html 파일 이름과 동일하게 구성 -->
-    <div id="TopMenuNavVar">
-      <span class="Title">
-        생활관 통합 정보 시스템 <a class="TitleEnp">[한반도]</a>
-      </span>
-      <span class="Date">
+    <div id="Wrapper" class="row">
+      <div id="Title" class="col s12 l4">
+        생활관 통합 정보 시스템 <a style="color: rgb(252, 180, 22);">[한반도]</a>
+      </div>
+      <div id="Date" class="col s12 l4">
         <a id="getDate">날짜</a>
-        <a id="getDOW">요일</a>
+        <a id="getDOW" style="color: rgb(252, 180, 22);">요일</a>
         <a id="getClock">시간</a>
-      </span>
-      <span id="UserData">
-        <span class="UserImage">
-          <img src="manicon.png" class="Image">
-        </span>
-        <span class="UserName">
-          <a class="UserNameEnp">홍 길동</a> 님 [백두관 사생회]
-        </span>
-      </span>
-      <span class="Logout">
+      </div>
+      <div id="UserData" class="col s12 l3">
+        <img src="manicon.png">
+        <a style="font-weight: bold;">홍 길동</a> 님 [백두관 사생회]
+      </div>
+      <div id="Logout" class="col s12 l1">
         <button type="button" class="LogoutButton">로그아웃</button>
-      </span>
+      </div>
     </div>
   </body>
 
   <!-- Script -->
-  <script src="TopMenuNavVar.js"> </script>
+  <script src="TopMenuNavBar.js"> </script>
+
 </html>
