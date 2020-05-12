@@ -1,0 +1,86 @@
+@font-face {
+  font-family:"NanumGothic";
+  src: url("NanumGothic.ttf") format("ttf");
+}
+
+* {
+
+}
+
+body {
+  font-family:"NanumGothic";
+  margin: 0px;
+}
+
+body #SlideBar {
+  width: 275px;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(252, 180, 22);
+}
+
+body #SlideBar .SlideBarTitle {
+
+}
+
+body #SlideBar dl {
+
+}
+
+body #SlideBar dl dt {
+  margin-top: 20px;
+}
+
+body #SlideBar dl dd {
+
+}
+
+body #SlideBar .Order {
+
+}
+
+body #SlideBar .Suggestion {
+
+}
+
+body #SlideBar .Penalty {
+
+}
+
+body #SlideBar .SideOut {
+
+}
+
+body #SlideBar .JoinRes {
+
+}
+
+body #SlideBar .Facility {
+
+}
+
+body #SlideBar .Suburban {
+
+}
+
+body #SlideBar .Security {
+
+}
+
+body #SlideBar .Notice {
+
+}
+
+body #SlideBar .UserData {
+
+}
+
+body #SlideButton {
+  position: fixed;
+  line-height: 935px;
+}
+
+body #SlideButton .ControlButton {
+  vertical-align: middle;
+  margin-left: 260px;
+}
