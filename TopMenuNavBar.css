@@ -37,6 +37,7 @@ body #Wrapper #Title {
 }
 
 body #Wrapper #Date {
+  color: white;
   font-size: 16px;
   text-align: center;
 }
