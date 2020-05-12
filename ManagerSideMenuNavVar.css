@@ -1,86 +1,96 @@
 @font-face {
-  font-family:"NanumGothic";
-  src: url("NanumGothic.ttf") format("ttf");
+	font-family:"NanumGothic";
+	src: url("NanumGothic.ttf") format("ttf");
 }
 
 * {
-
+	font-family: "NanumGothic";
 }
 
 body {
-  font-family:"NanumGothic";
-  margin: 0px;
+	margin: 0px;
+  	font-size: 14px;
 }
 
-body #SlideBar {
-  width: 275px;
-  height: 100%;
-  position: fixed;
-  background-color: rgb(252, 180, 22);
+body a {
+	text-decoration: none;
+	color: rgb(25, 25, 25);
 }
 
-body #SlideBar .SlideBarTitle {
-
-}
-
-body #SlideBar dl {
+body dl dt {
+	font-size: 18px;
+	font-weight: bold;
 
 }
 
-body #SlideBar dl dt {
-  margin-top: 20px;
+body dl dd {
+	font-size: 16px;
 }
 
-body #SlideBar dl dd {
-
+body #slide-out {
+	background-color: rgb(252, 180, 22);
+	padding-left: 40px;
 }
 
-body #SlideBar .Order {
-
+body #slide-out div {
+	margin-top: 20px;
 }
 
-body #SlideBar .Suggestion {
-
+body #slide-out .SlideBarTitle {
+	color: rgb(25, 25, 25);
+	font-size: 36px;
+	font-weight: bold;
 }
 
-body #SlideBar .Penalty {
-
-}
-
-body #SlideBar .SideOut {
-
-}
-
-body #SlideBar .JoinRes {
+body #slide-out .Order {
 
 }
 
-body #SlideBar .Facility {
+body #slide-out .Suggestion {
 
 }
 
-body #SlideBar .Suburban {
+body #slide-out .Penalty {
 
 }
 
-body #SlideBar .Security {
+body #slide-out .SideOut {
 
 }
 
-body #SlideBar .Notice {
+body #slide-out .JoinRes {
 
 }
 
-body #SlideBar .UserData {
+body #slide-out .Facility {
 
 }
 
-body #SlideButton {
-  position: fixed;
-  line-height: 935px;
+body #slide-out .Suburban {
+
 }
 
-body #SlideButton .ControlButton {
-  vertical-align: middle;
-  margin-left: 260px;
+body #slide-out .Security {
+
+}
+
+body #slide-out .Notice {
+
+}
+
+body #slide-out .UserData {
+
+}
+
+body button {
+	position: absolute;
+	top: 50%;
+	width: 24px;
+	height: 70px;
+	background-color: rgb(64, 64, 64);
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
 }

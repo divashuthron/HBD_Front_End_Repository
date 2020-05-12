@@ -1,73 +1,79 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="ManagerSideMenuNavVar.css">
+
+    <!-- AJax by Materializecss.com --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <meta charset="utf-8">
     <title>[한반도] 생활관 통합 정보 시스템</title>
   </head>
+
     <body>
-      <div id="SlideBar">
-        <a class="SlideBarTitle">HANBANDO</a>
-        <dl>
+      <dl id="slide-out" class="sidenav">
+        <!-- 로고 이미지로 대체 예정 -->
+        <a class="SlideBarTitle" href="#">HANBANDO</a>
           <div class="Order">
-            <dt>지시 및 전달 내역</dt>
-            <dd>지시 및 전달 내역</dd>
+            <dt><a href="#">지시 및 전달 내역</a></dt>
+            <dd><a href="#">지시 및 전달 내역</a></dd>
           </div>
           <div class="Suggestion">
-            <dt>불만/건의사항 접수</dt>
-            <dd>불만/건의사항 제시</dd>
-            <dd>나의 불만/건의사항 내역</dd>
+            <dt><a href="#">불만/건의사항 접수</a></dt>
+            <dd><a href="#">불만/건의사항 제시</a></dd>
+            <dd><a href="#">나의 불만/건의사항 내역</a></dd>
           </div>
           <div class="Penalty">
-            <dt>벌점 관리</dt>
-            <dd>벌점 대장</dd>
-            <dd>벌점 부과하기</dd>
-            <dd>나의 벌점 내역</dd>
+            <dt><a href="#">벌점 관리</a></dt>
+            <dd><a href="#">벌점 대장</a></dd>
+            <dd><a href="#">벌점 부과하기</a></dd>
+            <dd><a href="#">나의 벌점 내역</a></dd>
           </div>
           <div class="SideOut">
-            <dt>외박</dt>
-            <dd>외박 신청</dd>
-            <dd>나의 외박 내역</dd>
+            <dt><a href="#">외박</a></dt>
+            <dd><a href="#">외박 신청</a></dd>
+            <dd><a href="#">나의 외박 내역</a></dd>
           </div>
           <div class="JoinRes">
-            <dt>입/퇴사 관리</dt>
-            <dd>입사자 목록</dd>
-            <dd>추가 입사자 등록</dd>
-            <dd>퇴사자 등록</dd>
-            <dd>퇴사자 목록</dd>
+            <dt><a href="#">입/퇴사 관리</a></dt>
+            <dd><a href="#">입사자 목록</a></dd>
+            <dd><a href="#">추가 입사자 등록</a></dd>
+            <dd><a href="#">퇴사자 등록</a></dd>
+            <dd><a href="#">퇴사자 목록</a></dd>
           </div>
           <div class="Facility">
-            <dt>시설 이용 관리</dt>
-            <dd>생활관 규칙</dd>
-            <dd>벌점 부과 목록</dd>
-            <dd>사생회 연락망</dd>
-            <dd>헬스장</dd>
-            <dd>독서실</dd>
-            <dd>Cafeteria</dd>
+            <dt><a href="#">시설 이용 관리</a></dt>
+            <dd><a href="#">생활관 규칙</a></dd>
+            <dd><a href="#">벌점 부과 목록</a></dd>
+            <dd><a href="#">사생회 연락망</a></dd>
+            <dd><a href="#">헬스장</a></dd>
+            <dd><a href="#">독서실</a></dd>
+            <dd><a href="#">Cafeteria</a></dd>
           </div>
           <div class="Suburban">
-            <dt>교외 시설 정보</dt>
-            <dd>Poly's 맛집 코드</dd>
-            <dd>Poly's Playground</dd>
+            <dt><a href="#">교외 시설 정보</a></dt>
+            <dd><a href="#">Poly's 맛집 코드</a></dd>
+            <dd><a href="#">Poly's Playground</a></dd>
           </div>
           <div class="Security">
-            <dt>생활관 보안 정보</dt>
-            <dd>출입자 목록 조회</dd>
-            <dd>CCTV 조회</dd>
+            <dt><a href="#">생활관 보안 정보</a></dt>
+            <dd><a href="#">출입자 목록 조회</a></dd>
+            <dd><a href="#">CCTV 조회</a></dd>
           </div>
           <div class="Notice">
-            <dt>공지사항</dt>
-            <dd>공지사항</dd>
+            <dt><a href="#">공지사항</a></dt>
+            <dd><a href="#">공지사항</a></dd>
           </div>
           <div class="UserData">
-            <dt>환경 기록 카드</dt>
-            <dd>내 환경 기록 카드</dd>
+            <dt><a href="#">환경 기록 카드</a></dt>
+            <dd><a href="#">내 환경 기록 카드</a></dd>
           </div>
         </dl>
-      </div>
-      <div id="SlideButton">
-        <button type="button" class="ControlButton"> + </button>
-      </div>
+        <button type="button" data-target="slide-out" class="sidenav-trigger">▶</button>
     </body>
-    <script type="text/javascript" src="ManagerSideMenuNavVar.js"> </script>
+
+    <script src="ManagerSideMenuNavVar.js"> </script>
+
 </html>
