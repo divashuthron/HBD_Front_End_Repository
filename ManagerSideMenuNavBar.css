@@ -12,7 +12,7 @@ body {
   	font-size: 14px;
 }
 
-body a {
+body #slide-out a {
 	text-decoration: none;
 	color: rgb(25, 25, 25);
 }
@@ -20,11 +20,11 @@ body a {
 body dl dt {
 	font-size: 18px;
 	font-weight: bold;
-
 }
 
 body dl dd {
 	font-size: 16px;
+	margin-left: 0px;
 }
 
 body #slide-out {
@@ -36,7 +36,12 @@ body #slide-out div {
 	margin-top: 20px;
 }
 
-body #slide-out .SlideBarTitle {
+body #slide-out .SlideBarTop {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+body #slide-out .SlideBarTop .SlideBarTitle {
 	color: rgb(25, 25, 25);
 	font-size: 36px;
 	font-weight: bold;
@@ -79,10 +84,10 @@ body #slide-out .Notice {
 }
 
 body #slide-out .UserData {
-
+	margin-bottom: 20px;
 }
 
-body button {
+body #NavTrigger {
 	position: absolute;
 	top: 50%;
 	width: 24px;
