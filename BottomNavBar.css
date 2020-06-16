@@ -1,0 +1,53 @@
+@font-face {
+  font-family:"NanumGothic";
+  src: url("NanumGothic.ttf") format("ttf");
+
+  font-family:"NanumGothicBold";
+  src: url("NanumGothicBold.ttf") format("ttf");
+}
+
+ #BottomNavContainer {
+  color: white;
+  background-color: black;
+  font-family:"NanumGothic";
+  min-height: 120px;
+  min-width: 1620px;
+}
+
+ #BottomNavContainer #Bottom_Wrapper {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  height: 120px;
+}
+
+ #BottomNavContainer #Bottom_Wrapper .Bottom_Logo {
+  margin: auto;
+}
+
+ #BottomNavContainer #Bottom_Wrapper .Bottom_Logo a {
+  text-decoration: none;
+}
+
+ #BottomNavContainer #Bottom_Wrapper .Bottom_Logo img {
+  width: 130px;
+  height: 40px;
+}
+
+ #BottomNavContainer #Bottom_Wrapper .Bottom_Address {
+  margin: auto;
+  text-align: center;
+}
+
+ #BottomNavContainer #Bottom_Wrapper .Bottom_Address a {
+  color: white;
+}
+
+ #BottomNavContainer #Bottom_Wrapper .Bottom_Info {
+  margin: auto;
+  font-size: 14px;
+}
+
+ #BottomNavContainer #Bottom_Wrapper .Bottom_Info a {
+  color: white;
+  text-decoration: none;
+}

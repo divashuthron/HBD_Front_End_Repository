@@ -9,7 +9,7 @@
 
 body {
 	margin: 0px;
-  	font-size: 14px;
+  font-size: 14px;
 }
 
 body #slide-out a {
@@ -20,66 +20,68 @@ body #slide-out a {
 body dl dt {
 	font-size: 18px;
 	font-weight: bold;
-
 }
 
 body dl dd {
 	font-size: 16px;
+	margin-left: 0px;
 }
 
 body #slide-out {
 	background-color: rgb(252, 180, 22);
-	padding-left: 40px;
 }
 
 body #slide-out div {
 	margin-top: 20px;
 }
 
-body #slide-out .SlideBarTitle {
-	color: rgb(25, 25, 25);
-	font-size: 36px;
-	font-weight: bold;
+body #slide-out .SlideBarTop {
+	margin: 40px 0px;
+}
+
+body #slide-out .SlideBarTop .SlideBarTitle img {
+	width: 100%;
+	height: 10%;
 }
 
 body #slide-out .Order {
-
+	padding-left: 40px;
 }
 
 body #slide-out .Suggestion {
-
+	padding-left: 40px;
 }
 
 body #slide-out .Penalty {
-
+	padding-left: 40px;
 }
 
 body #slide-out .SideOut {
-
+	padding-left: 40px;
 }
 
 body #slide-out .JoinRes {
-
+	padding-left: 40px;
 }
 
 body #slide-out .Facility {
-
+	padding-left: 40px;
 }
 
 body #slide-out .Suburban {
-
+	padding-left: 40px;
 }
 
 body #slide-out .Security {
-
+	padding-left: 40px;
 }
 
 body #slide-out .Notice {
-
+	padding-left: 40px;
 }
 
 body #slide-out .UserData {
-
+	padding-left: 40px;
 }
 
 body #NavTrigger {
