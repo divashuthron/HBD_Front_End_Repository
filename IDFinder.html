@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <!--Stylesheet-->
-    <link rel="stylesheet" href="IDFinder.css">
+    <link rel="stylesheet" href="resources/css/IDFinder.css">
 
     <meta charset="utf-8">
     <title>[한반도] 생활관 통합 정보 시스템</title>
@@ -22,24 +22,24 @@
       <div id = "wrap_content">
         <div id = "tap">
           <div id = "left">
-            <img src="#"> 학번 찾기
+            <a href = "#" style="color: rgb(252, 180, 22);"><img src="resources/images/IDLogo.png">학번 찾기</a>
           </div>
           <div id = "right">
-            <img src="#"> 비밀번호 찾기
+              <a href = "#" style="color: white;"><img src="resources/images/Lock.png"> 비밀번호 찾기</a>
           </div>
         </div>
         <div id = "main">
           <div id = "main_title">
             <h2>학번(ID) 찾기</h2>
-            학번(ID)을 찾기 위해<a style="color: rgb(252, 180, 22)">이름, 이메일</a>을 입력해주세요.
+            학번(ID)을 찾기 위해<a style="color: rgb(252, 180, 22)"> 이름, 이메일</a>을 입력해주세요.
           </div>
           <div id = "input_name">
-            <label for = "userName">이름</label>
-            <input type = "text" id = "userName" class = "form_control">
+            <label for = "userName">이름　　</label>
+            <input type = "text" id = "userName" class = "form_control" placeholder=" ">
           </div>
           <div id = "input_email">
-            <label for = "userEmail">이메일</label>
-            <input type = "text" id = "userEmail" class = "form_control">
+            <label for = "userEmail">이메일　</label>
+            <input type = "text" id = "userEmail" class = "form_control" placeholder=" ">
           </div>
           <div id = "btn_Result">
             <button type = "button" id = "btn_Result" class = "btn btn-warning">찾기</button>
@@ -50,5 +50,5 @@
   </body>
 
   <!-- Script -->
-  <script src="IDFinder.js"> </script>
+  <script src="resources/js/IDFinder.js"> </script>
 </html>
