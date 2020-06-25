@@ -65,6 +65,19 @@
   font-size: 15px;
 }
 
-@media (min-width: 575px) {
-
+/*
+@media screen and (max-width: 768px) { 
+    #top_container #wrap_content #title {
+        width: 150px;
+    }
+    #top_container #wrap_content #date {
+        width: 150px;
+    }
+    #top_container #wrap_content #user_data {
+        width: 150px;
+    }
+    #top_container #wrap_content #logout {
+        width: 150px;
+    }
 }
+*/
