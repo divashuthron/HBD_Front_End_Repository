@@ -12,7 +12,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     
         <!--Stylesheet-->
-        <link rel="stylesheet" href="resources/css/#.css">
+        <link rel="stylesheet" href="resources/css/Index.css">
       
         <!-- Script -->
         <script type="text/javascript" src="resources/js/#.js"></script>
@@ -24,23 +24,102 @@
         
         <div id = "index_container">
             <div id = "wrap_content">
-                <div id = "user_info">
-                    <div id = "top_content">
-                        <a>사용자</a> 님, 안녕하세요!<br>
-                        한국폴리텍2대학 인천캠퍼스 <a>0층</a> <a>관리자</a>
-                    </div>
-                    <div id = "user_status">
-                        현재 상태: <img src="#"> <a>온라인</a>
-                        <button type="button" id="btn_changestatus" class="btn btn-dark">자리비움으로 설정하기</button>
+                <div id = "top_content">
+                    <div id = "user_data">
+                        <div id = "user_welcome">
+                            <a id="user_name">사용자</a> 님, 안녕하세요!<br>
+                            한국폴리텍2대학 인천캠퍼스 <a id="user_roomnumber">000</a>호 <a id="user_hierarchy">학생</a>
+                        </div>
+                        <div id = "user_status">
+                            <a style="font-weight: bold;">현재 상태:</a> <img src="resources/images/Online.png"> <a id="connection_status">온라인</a>
+                            <button type="button" id="btn_changestatus" class="btn btn-warning">자리비움으로 설정하기</button>
+                        </div>
                     </div>
                     <div id = "location_button">
-                        <button type="button" class="btn btn-dark">점호 결과표 작성</button>
+                        <button type="button" id="btn_complain" class="btn btn-warning">불만/건의사항 작성</button>
+                    </div>
+                </div>
+                    
+                <div id = "middle_content">
+                    <div id = "middle_left_content">
+                        <img src="resources/images/IDLogo.png" style="width: 30px; height :30px; margin-bottom: 5px;"> Daily's Place
+                        <div id = "recommendation">
+                            <div id = "rec_picture">
+                                <img src="#">
+                            </div>
+                            <div id = "rec_info">
+                                <div id="storename">
+                                    가게 이름 가게 이름 가게 이름
+                                </div>
+                                <div id="storeinfo">
+                                    가게 정보 가게 정보 가게 정보 가게 정보
+                                </div>
+                            </div>
+                            <div id = "rec_button">
+                                <button type="button" id="btn_select" class="btn btn-warning">자세히 보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id = "middle_center_content">
+                        <img src="resources/images/IDLogo.png" style="width: 30px; height :30px; margin-bottom: 5px;"> 내 불만/건의사항
+                        <div id = "complain1">
+                            <a id="complain_title">불만 사항 1번 입니다</a>
+                            <a id="complain_content">불만 사항 1번의 내용입니다. 불만 사항 1번의</a>
+                        </div>
+                        <div id = "complain2">
+                            <a id="complain_title">불만 사항 2번 입니다</a>
+                            <a id="complain_content">불만 사항 2번의 내용입니다. 불만 사항 2번의</a>
+                        </div>
+                        <div id = "complain3">
+                            <a id="complain_title">불만 사항 3번 입니다</a>
+                            <a id="complain_content">불만 사항 3번의 내용입니다. 불만 사항 3번의</a>
+                        </div>
+                    </div>
+                    <div id = "middle_right_content">
+                        <div id = "middle_right_top_content">
+                            <img src="#">　벌점
+                            <div id = "penalty">
+                                <!-- 자바스크립트를 통해 첫 화면 실행 시 프로그레스바가 움직이게 구성 -->
+                                <progress id="penalty_progress" value="0" max="50"></progress><br>
+                                <!-- 경고 난이도 : 양호, 경고, 위험 -->
+                                <a id="penalty_status">양호</a><br>
+                                <a id="penalty_score">0</a>점
+                            </div>
+                        </div>
+                        <div id = "middle_right_bottom_content">
+                            <img src="#">　최근 외박 내역
+                            <div id = "stayout">
+                                <img src="#">
+                                    <a id="stayout_start_date">2020.00.00</a>~<a id="stayout_end_date">2020.00.00</a><br>
+                                <a id="stayout_reason">개인 사정 개인 사정 개인 사정</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = "bottom_content">
+                    <div id = "bottom_left_content">
+                        <div id = "collage_notice">
+                            <!-- 대학교 메인 공지사진 슬라이드 출력 -->
+                        </div>
+                    </div>
+                    <div id = "bottom_right_content">
+                        <img src="#">　공지사항
+                        <div id = "notice1">
+                            <a id="notice_date">2020.00.00</a><br>
+                            <img src="#">
+                            <a id="notice_title">공지사항 공지사항 공지사</a><br>
+                            <a id="notice_content">공지사항의 내용 공지사항의 내용 공지사항의 내용 공지사</a>
+                        </div>
+                        <div id = "notice2">
+                            <a id="notice_date">2020.00.00</a><br>
+                            <img src="#">
+                            <a id="notice_title">공지사항 공지사항 공지사</a><br>
+                            <a id="notice_content">공지사항의 내용 공지사항의 내용 공지사항의 내용 공지사</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-        
     </body>
 </html>

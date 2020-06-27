@@ -19,7 +19,6 @@ body {
 
 #idfinder_container #wrap_content {
     position: absolute;
-    left: 95%;
     top: 45%;
     color: rgb(225, 225, 225);
     background-color: rgb(25, 25, 25);
