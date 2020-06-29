@@ -7,26 +7,27 @@
 }
 
 body {
-    
+
     background: url(../images/idfinder.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-#idfinder_container {
-    
+#idfinder_container * {
+    font-family: "NanumGothic"
 }
 
 #idfinder_container #wrap_content {
     position: absolute;
-    left: 95%;
-    top: 45%;
+    top: 50%;
+    right: -50%;
     color: white;
     background-color: rgb(25, 25, 25);
     width: 720px;
     height: 420px;
     border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #idfinder_container #wrap_content #tap {
@@ -89,7 +90,7 @@ body {
     width: 25px;
     height: 25px;
     margin-right: 2%;
-    margin-bottom: 6px; 
+    margin-bottom: 6px;
 }
 
 #idfinder_container #wrap_content #main {
@@ -158,4 +159,5 @@ body {
 }
 
 #idfinder_container #wrap_content #main #btn_Result button {
-    
+    padding: 0px;
+}

@@ -19,11 +19,14 @@ body {
 
 #idfinder_container #wrap_content {
     position: absolute;
-    top: 45%;
+    top: 50%;
+    right: -50%;
     color: rgb(225, 225, 225);
     background-color: rgb(25, 25, 25);
     width: 720px;
     height: 420px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #idfinder_container #wrap_content #main {
@@ -96,6 +99,7 @@ body {
     font-weight: bold;
     width: 150px;
     height: 35px;
+    padding: 0px;
 }
 
 #idfinder_container #wrap_content #main #btn_login {
@@ -106,4 +110,5 @@ body {
     font-weight: bold;
     width: 90px;
     height: 35px;
+    padding: 0px;
 }

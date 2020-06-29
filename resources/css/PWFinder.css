@@ -13,20 +13,21 @@ body {
     background-attachment: fixed;
 }
 
-#pwfinder_container {
-    
+#pwfinder_container * {
+    font-family: "NanumGothic"
 }
 
 #pwfinder_container #wrap_content {
     position: absolute;
-    left: 95%;
-    top: 45%;
+    top: 50%;
+    right: -50%;
     color: white;
     background-color: rgb(25, 25, 25);
     width: 720px;
     height: 420px;
     animation-direction: normal;
     border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #pwfinder_container #wrap_content #tap {
@@ -42,6 +43,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     padding-top: 4%;
+    border-top-left-radius: 10px;
 }
 
 #pwfinder_container #wrap_content #tap #left:hover {
@@ -158,6 +160,6 @@ body {
 }
 
 #pwfinder_container #wrap_content #main #btn_Result button {
-    
+    padding: 0px;
 }
     
