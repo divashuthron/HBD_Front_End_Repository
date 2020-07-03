@@ -41,12 +41,3 @@ $('a', '#stayout_image').hover(function() {
     $('img', '#stayout_image').css("transition", "all 0.2s");
     $(this).css("transition", "all 0.2s");
 });
-
-$(document).ready(function(){
-    $('#collage_notice').bxSlider({
-        auto: true,
-        autoControls: true,
-        stopAutoOnClick: true,
-        pager: true,
-    });
-});
