@@ -7,22 +7,19 @@
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
         <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
         <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
-      
-        <script>
-            $(document).ready(function() {
-                $('select').material_select();
-            });
-        </script>
         
         <!--Stylesheet-->
         <link rel="stylesheet" href="resources/css/Complain.css">
+        
+        <!-- Script -->
+        <script type="text/javascript" src="resources/js/Complain.js"></script>
         
         <title>[한반도] 생활관 통합 정보 시스템</title>
     </head>
     <body>
         <div id="complain_container">
             <div id="top_content">
-                <h2 class="center-align">불만/건의사항 제시</h2>
+                <h2 id="top_title" class="center-align">불만/건의사항 제시</h2>
             </div>
             <div id="bottom_content">
                 <form method="post" action="#">
@@ -31,7 +28,7 @@
                     </div>
                     <div id="complain_type">
                         <label for="complain_select">종류</label>
-                        <select>
+                        <select id="type">
                             <option value="" disabled>선택</option>
                             <option value="시설 보수요청">시설 보수요청</option>
                             <option value="불만사항 제기">불만사항 제기</option>
@@ -59,13 +56,13 @@
                         <div id="file_path" class="file-path-wrapper col s11">
                             <input id="path" class="file-path validate" type="text" disabled>
                         </div>
-                        <div id="file_button" class="btn col s1">
+                        <div id="file_button" class="waves-effect waves-light btn col s1" >
                             첨부
                             <input type="file" class="btn">
                         </div>
                     </div>
                     <div id="complain_submit">
-                        <button type="submit" id="submit" class="btn">요청</button>
+                        <button type="submit" id="submit" class="waves-effect waves-light btn">요청</button>
                     </div>
                 </form>
             </div>
