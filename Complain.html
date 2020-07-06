@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="kr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+      
+        <script>
+            $(document).ready(function() {
+                $('select').material_select();
+            });
+        </script>
+        
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="resources/css/Complain.css">
+        
+        <title>[한반도] 생활관 통합 정보 시스템</title>
+    </head>
+    <body>
+        <div id="complain_container">
+            <div id="top_content">
+                <h2 class="center-align">불만/건의사항 제시</h2>
+            </div>
+            <div id="bottom_content">
+                <form method="post" action="#">
+                    <div id="complain_title">
+                        <a>불만/건의사항 제시</a>
+                    </div>
+                    <div id="complain_type">
+                        <label for="complain_select">종류</label>
+                        <select>
+                            <option value="" disabled>선택</option>
+                            <option value="시설 보수요청">시설 보수요청</option>
+                            <option value="불만사항 제기">불만사항 제기</option>
+                            <option value="건의사항">건의사항</option>
+                            <option value="기타">기타</option>
+                        </select>
+                    </div>
+                    <div id="complain_roomnumber">
+                        <label for="roomnumber">호실</label>
+                        <input id="roomnumber" value="424" type="text" class="validate" disabled>
+                    </div>
+                    <div id="complain_user_name">
+                        <label for="name">이름</label>
+                        <input id="name" value="홍길동" type="text" class="validate" disabled>
+                    </div>
+                    <div id="complain_article_title">
+                        <label for="title">제목</label>
+                        <input id="title" type="text" class="validate">
+                    </div>
+                    <div id="complain_article_content">
+                        <label for="content">내용</label>
+                        <textarea id="content" class="materialize-textarea"></textarea>
+                    </div>
+                    <div id="complain_input_file" class="file-field row">
+                        <div id="file_path" class="file-path-wrapper col s11">
+                            <input id="path" class="file-path validate" type="text" disabled>
+                        </div>
+                        <div id="file_button" class="btn col s1">
+                            첨부
+                            <input type="file" class="btn">
+                        </div>
+                    </div>
+                    <div id="complain_submit">
+                        <button type="submit" id="submit" class="btn">요청</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
