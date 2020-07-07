@@ -5,7 +5,8 @@
 
 * {
     /* 개발 테스트용 테두리 설정 */
-    border: 1px solid pink;
+    /* border: 1px solid black; */
+    
 }
 
 #complain_container {
@@ -22,7 +23,7 @@
 }
 
 #complain_container #bottom_content {
-    margin: 0px 12%;
+    
 }
 
 #complain_container #bottom_content form #complain_title {
@@ -50,4 +51,53 @@
 
 #complain_container #bottom_content form #complain_type .select-wrapper ul * {
     color: rgb(33, 33, 33);
+}
+
+#complain_container #bottom_content form #complain_roomnumber {
+    padding-right: 75%;
+}
+
+#complain_container #bottom_content form #complain_roomnumber #roomnumber {
+    
+}
+
+#complain_container #bottom_content form #complain_user_name {
+    padding-right: 75%;
+}
+
+#complain_container #bottom_content form #complain_article_title {
+    
+}
+
+#complain_container #bottom_content form #complain_article_content {
+    
+}
+
+#complain_container #bottom_content form #complain_article_content #content {
+    height: 250px;
+}
+
+#complain_container #bottom_content form #complain_input_file {
+    
+}
+
+#complain_container #bottom_content form #complain_input_file #file_button {
+    margin-top: 2%;
+    font-size: 12px;
+    width: 60px;
+    height: 40px;
+}
+
+#complain_container #bottom_content form #complain_input_file #file_button a {
+    
+}
+
+#complain_container #bottom_content form #complain_submit {
+    text-align: right;
+    margin-bottom: 200px;
+}
+
+#complain_container #bottom_content form #complain_submit #submit {
+    width: 100px;
+    height: 40px;
 }

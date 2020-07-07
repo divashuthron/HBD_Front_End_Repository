@@ -21,7 +21,7 @@
             <div id="top_content">
                 <h2 id="top_title" class="center-align">불만/건의사항 제시</h2>
             </div>
-            <div id="bottom_content">
+            <div id="bottom_content" class="container">
                 <form method="post" action="#">
                     <div id="complain_title">
                         <a>불만/건의사항 제시</a>
@@ -44,21 +44,22 @@
                         <label for="name">이름</label>
                         <input id="name" value="홍길동" type="text" class="validate" disabled>
                     </div>
-                    <div id="complain_article_title">
+                    <div id="complain_article_title" class="input-field">
                         <label for="title">제목</label>
                         <input id="title" type="text" class="validate">
                     </div>
-                    <div id="complain_article_content">
+                    <div id="complain_article_content" class="input-field">
                         <label for="content">내용</label>
                         <textarea id="content" class="materialize-textarea"></textarea>
                     </div>
                     <div id="complain_input_file" class="file-field row">
-                        <div id="file_path" class="file-path-wrapper col s11">
+                        <div id="file_path" class="file-path-wrapper col s5">
+                            <label for="path">첨부파일</label>
                             <input id="path" class="file-path validate" type="text" disabled>
                         </div>
                         <div id="file_button" class="waves-effect waves-light btn col s1" >
-                            첨부
-                            <input type="file" class="btn">
+                            <a style="color: white;">첨부</a>
+                            <input id="file_btn" type="file" class="btn">
                         </div>
                     </div>
                     <div id="complain_submit">
