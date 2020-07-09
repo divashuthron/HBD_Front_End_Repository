@@ -1,0 +1,23 @@
+@font-face {
+    font-family:'NanumBarunGothic';
+    src: url('resources/font/NanumBarunGothic') format('truetype');
+}
+
+* {
+    /* 개발 테스트용 테두리 설정 */
+    /* border: 1px solid pink; */
+    
+}
+
+#complain_container {
+    height: 300px;
+}
+
+#complain_container #top_content {
+    height: 300px;
+}
+
+#complain_container #top_content h2 {
+    margin-top: 7%;
+    font-weight: bold;
+}

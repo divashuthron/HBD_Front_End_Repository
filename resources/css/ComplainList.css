@@ -5,7 +5,7 @@
 
 * {
     /* 개발 테스트용 테두리 설정 */
-    /* border: 1px solid black; */
+    /* border: 1px solid pink; */
     
 }
 
@@ -36,6 +36,26 @@
     font-weight: bold;
 }
 
-#complain_container #bottom_content form #complain_search {
-    
+#complain_container #bottom_content form #complain_submit {
+    margin-top: 2.5%;
+}
+
+#complain_container #bottom_content form #complain_submit #search {
+    width: 60px;
+    height: 30px;
+    padding: 0px;
+}
+
+#complain_container #bottom_content #complain_list {
+    height: 660px;
+}
+
+#complain_container #bottom_content #complain_post {
+    margin-bottom: 200px;
+}
+
+#complain_container #bottom_content #complain_post #post {
+    width: 100px;
+    height: 40px;
+    padding: 0px;
 }
