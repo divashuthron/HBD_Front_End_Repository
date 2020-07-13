@@ -2,18 +2,18 @@
 <html lang="kr" dir="ltr">
     <head>
         <meta charset="utf-8">
-        
+
         <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-        <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
-        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
-        
+        <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+
         <!--Stylesheet-->
         <link rel="stylesheet" href="resources/css/Complain.css">
-        
+
         <!-- Script -->
         <script type="text/javascript" src="resources/js/Complain.js"></script>
-        
+
         <title>[한반도] 생활관 통합 정보 시스템</title>
     </head>
     <body>
@@ -23,7 +23,7 @@
             </div>
             <div id="bottom_content" class="container">
                 <form method="post" action="#">
-                    <div id="complain_title">
+                    <div class="header_contain" id="complain_title" style="background:">
                         <a>불만/건의사항 제시</a>
                     </div>
                     <div id="complain_type">
@@ -46,7 +46,7 @@
                     </div>
                     <div id="complain_article_title" class="input-field">
                         <label for="title">제목</label>
-                        <input id="title" type="text" class="validate">
+                        <input  type="text" class="validate">
                     </div>
                     <div id="complain_article_content" class="input-field">
                         <label for="content">내용</label>
@@ -58,7 +58,7 @@
                             <input id="path" class="file-path validate" type="text" disabled>
                         </div>
                         <div id="file_button" class="waves-effect waves-light btn col s1" >
-                            <a style="color: white;">첨부</a>
+                            <a>첨부</a>
                             <input id="file_btn" type="file" class="btn">
                         </div>
                     </div>
