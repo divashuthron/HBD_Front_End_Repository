@@ -76,6 +76,7 @@ body{
 
 #penalty_container #wrapper_bottom #penalty_list {
     margin-top: 2%;
+    height: 300px;
 }
 
 #penalty_container #wrapper_bottom #penalty_list tr {
@@ -114,6 +115,16 @@ body{
     border: 0px;
 }
 
+#penalty_container #wrapper_bottom #penalty_button #penalty_approval:hover {
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+#penalty_container #wrapper_bottom #penalty_button #penalty_approval:not(:hover) {
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
 #penalty_container #wrapper_bottom #penalty_button #penalty_objection {
     width: 100px;
     height: 40px;
@@ -121,4 +132,14 @@ body{
     color: rgb(25, 25, 25);
     background-color: rgb(252, 180, 22);
     border: 0px;
+}
+
+#penalty_container #wrapper_bottom #penalty_button #penalty_objection:hover {
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+#penalty_container #wrapper_bottom #penalty_button #penalty_objection:not(:hover) {
+    font-size: 16px;
+    transition: all 0.2s;
 }
