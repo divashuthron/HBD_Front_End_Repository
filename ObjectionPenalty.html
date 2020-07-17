@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
         <!--Stylesheet-->
-        <link rel="stylesheet" href="resources/css/ApprovalPenalty.css">
+        <link rel="stylesheet" href="resources/css/ObjectionPenalty.css">
 
         <title>[한반도] 생활관 통합 정보 시스템</title>
     </head>
@@ -32,8 +32,8 @@
                 <div id = "penalty_subtitle">
                     <b>이의신청 할 벌점을 선택 후, 신청하시기 바랍니다.</b>
                 </div>
-                <form id="approval_form" method="post" action="#">
-                    <div id = "penalty_approval_table">
+                <form id="objection_form" method="post" action="#">
+                    <div id = "penalty_objection_table">
                         <table class="table">
                             <thead class="thead-light">
                                 <tr>
@@ -46,51 +46,51 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><input type="checkbox" id="approval1" class="form-check-input"></td> 
+                                    <td><input type="checkbox" id="objection1" class="form-check-input"></td> 
                                     <td>2020.00.00</td>
                                     <td>35점</td>
                                     <td>카드키 미 반납</td>
-                                    <td><i id="approvalIcon1" class="fas fa-check-circle"></i>　미승인 상태</td>
+                                    <td><i id="objectionIcon1" class="fas fa-check-circle"></i>　미승인 상태</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox" id="approval2" class="form-check-input"></td> 
+                                    <td><input type="checkbox" id="objection2" class="form-check-input"></td> 
                                     <td>2020.00.00</td>
                                     <td>35점</td>
                                     <td>카드키 미 반납</td>
-                                    <td><i id="approvalIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
+                                    <td><i id="objectionIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox" id="approval2" class="form-check-input"></td> 
+                                    <td><input type="checkbox" id="objection2" class="form-check-input"></td> 
                                     <td>2020.00.00</td>
                                     <td>35점</td>
                                     <td>카드키 미 반납</td>
-                                    <td><i id="approvalIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
+                                    <td><i id="objectionIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox" id="approval2" class="form-check-input"></td> 
+                                    <td><input type="checkbox" id="objection2" class="form-check-input"></td> 
                                     <td>2020.00.00</td>
                                     <td>35점</td>
                                     <td>카드키 미 반납</td>
-                                    <td><i id="approvalIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
+                                    <td><i id="objectionIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox" id="approval2" class="form-check-input"></td> 
+                                    <td><input type="checkbox" id="objection2" class="form-check-input"></td> 
                                     <td>2020.00.00</td>
                                     <td>35점</td>
                                     <td>카드키 미 반납</td>
-                                    <td><i id="approvalIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
+                                    <td><i id="objectionIcon2" class="fas fa-check-circle"></i>　미승인 상태</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                     <div id = "penalty_button">
                         <button type="button" id="penalty_back" class="btn btn-primary" onclick="history.back()">목록 보기</button>
-                        <button type="submit" id="penalty_approval" class="btn btn-primary" >이의 신청</button>
+                        <button type="submit" id="penalty_objection" class="btn btn-primary" >이의 신청</button>
                     </div>
                 </form>
             </div>
         </div>
     </body>
     <!-- Script -->
-    <script type="text/javascript" src="resources/js/ApprovalPenalty.js"></script>
+    <script type="text/javascript" src="resources/js/ObjectionPenalty.js"></script>
 </html>
