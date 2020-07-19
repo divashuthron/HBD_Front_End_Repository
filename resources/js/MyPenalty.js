@@ -26,6 +26,7 @@ if (penaltyScore >= 30) {
     $('#progress').css("width", `${progress_percent}%`);
     $('#progress').css("background-color", "rgb(231, 76, 60)");
     $('#penaltyStatus').text("위험");
+    $('#penaltyIcon').text(" 위험");
     $('#penaltyStatus').css("color", "rgb(231, 76, 60)");
     $('#penaltyIcon').attr("class", "fas fa-exclamation-circle");
     $('#penaltyIcon').css("color", "rgb(231, 76, 60)");
@@ -37,6 +38,7 @@ if (penaltyScore >= 30) {
     $('#progress').css("width", `${progress_percent}%`);
     $('#progress').css("background-color", "rgb(252, 180, 22)");
     $('#penaltyStatus').text("경고");
+    $('#penaltyIcon').text(" 경고");
     $('#penaltyStatus').css("color", "rgb(252, 180, 22)");
     $('#penaltyIcon').attr("class", "fas fa-exclamation-triangle");
     $('#penaltyIcon').css("color", "rgb(252, 180, 22)");
@@ -48,6 +50,7 @@ if (penaltyScore >= 30) {
     $('#progress').css("width", `${progress_percent}%`);
     $('#progress').css("background-color", "rgb(0, 129, 55)");
     $('#penaltyStatus').text("양호");
+    $('#penaltyIcon').text(" 양호");
     $('#penaltyStatus').css("color", "rgb(0, 129, 55)");
     $('#penaltyIcon').attr("class", "fas fa-check-circle");
     $('#penaltyIcon').css("color", "rgb(0, 129, 55)");
