@@ -10,7 +10,7 @@
 
 }
 
-body{
+body {
     background-color: rgb(240, 240, 240);
 }
 
@@ -28,6 +28,13 @@ body{
     margin-top: 2.5%;
 }
 
+#complain_container #wrapper_bottom *:disabled {
+    background-color: rgb(190, 190, 190);
+    color: rgb(94, 94, 94);
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+}
+
 #complain_container #wrapper_bottom #complain_subtitle {
     font-size: 32px;
     font-weight: bold;
@@ -42,7 +49,7 @@ body{
 
 #complain_container #wrapper_bottom #complain_form #complain_data_top #complain_type #complainType {
     width: 25%;
-    height: 50%;
+    height: 50%;    
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_data_middle {
@@ -54,7 +61,7 @@ body{
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_data_middle #user_roomnumber #userRoomnumber {
-    width: 50%;
+    width: 52%;
     height: 50%;
 }
 
@@ -81,6 +88,84 @@ body{
     padding-bottom: 1.5%;
 }
 
+#complain_container #wrapper_bottom #complain_form #complain_content #complainContent {
+    margin-top: 1%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_file input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_file label {
+    display: inline-block;
+    padding: .5em .75em;
+    font-size: 12px;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+    margin-top: 0.8%;
+    background-color: rgb(252, 180, 22);
+    font-weight: bold;
+    margin-left: 1%;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_file #complainFileName {
+    display: inline-block;
+    padding: .5em .75em;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 70%;
+    height: 70%;
+    background-color: rgb(190, 190, 190);
+    color: rgb(94, 94, 94);
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+}
+
 #complain_container #wrapper_bottom #complain_form #complain_button {
     text-align: right;
+    margin-top: 5%;
+    margin-bottom: 200px;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_write {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(252, 180, 22);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_write:hover {
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_button #complain_write:not(:hover) {
+    font-size: 16px;
+    transition: all 0.2s;
 }
