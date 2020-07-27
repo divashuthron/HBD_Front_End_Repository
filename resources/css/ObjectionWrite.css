@@ -65,6 +65,10 @@ body{
     border-color: rgb(200, 200, 200);
 }
 
+ .fas.fa-exclamation-triangle {
+    color: rgb(252,180,22);
+}
+
 #objection_container #wrapper_bottom #objection_form #objection_content {
     margin-top: 1%;
 }
@@ -82,4 +86,16 @@ body{
 #objection_container #wrapper_bottom #objection_form #objection_button #objection_write {
     width: 100px;
     height: 40px;
+    background-color: rgb(252,180,22);
+    border-color: rgb(252,180,22);
+}
+
+#objection_container #wrapper_bottom #objection_form #objection_button #objection_write:hover{
+  font-size: 18px;
+  transition: all 0.2s;
+}
+
+#objection_container #wrapper_bottom #objection_form #objection_button #objection_write:not(:hover){
+  font-size: 16px;
+  transition: all 0.2s;
 }
