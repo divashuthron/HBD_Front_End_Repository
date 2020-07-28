@@ -24,41 +24,83 @@
         <title>[한반도] 생활관 통합 정보 시스템</title>
     </head>
     <body>
-        <div id = "stay_container">
+        <div id = "apply_container">
             <div id = "wrapper_top" class="jumbotron">
-                <h1 class="display-4 text-center">외박 신청</h1>
+                <h1 class="display-4 text-center">나의 외박 내역</h1>
             </div>
             <div id = "wrapper_bottom" class="container">
-                <div id = "stay_subtitle">
-                    외박 신청
-                </div>
-                <form method = "post" actionn = "#" id = "stay_form">
-                    <div id = "stay_data_top" class = "row">
-                        <div id = "room_number" class = "col">
-                            <a style="font-size: 20px;">호실　</a><br>
-                            <input type = "text" id = "roomNumber" value = "000" disabled> 호
-                        </div>
-
-                    </div>
-                    <div id = "stay_data_middle" class = "row">
-                        <div id = "user_name" class = "col">
-                            <a style="font-size: 20px;">이름　</a><br>
-                            <input type = "text" id = "userName" value = "홍길동" disabled>
-                        </div>
-
-                    </div>
-                    <div id = "stay_data_bottom" class = "row">
-                        <div id = "apply_date" class="col">
-                          <div><a style="font-size: 20px; font-weight: bold;">외박 일자</a></div>
-                          <div><input type="date" name="" value=""> - <input type="date" name="" value=""></div>
+                <form method = "post" actionn = "#" id = "apply_form">
+                    <div id = "apply_data_top" class = "row">
+                        <div id = "apply_table" class = "col">
+                          <table>
+                            <tr id = "table_top">
+                              <td><a id="apply_date">2020년 07월 28일 ~ 2020년 07월 28일 </a></td>
+                            </tr>
+                            <tr id = "table_bottom">
+                              <td>
+                                외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박
+                                <input type="button" id="revise" name="" value="수정하기">
+                                <input type="button" id="revise" name="" value="외박 취소">
+                              </td>
+                            </tr>
+                          </table>
                         </div>
                     </div>
-                    <div id = "stay_content">
-                        <a style="font-size: 20px;">외박 사유　</a><br>
-                        <input type = "text" id="applyDate">
+                    <div id = "apply_data_middle" class = "row">
+                      <div id = "apply_table" class = "col">
+                        <table>
+                          <tr id = "table_top">
+                            <td><a id="apply_date">2020년 07월 28일 ~ 2020년 07월 28일 </a></td>
+                          </tr>
+                          <tr id = "table_bottom">
+                            <td>
+                              외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박 사유
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
-                    <div id = "stay_button">
-                        <button type = "submit" id = "stay_write" class = "btn btn-primary">확인</button>
+                    <div id = "apply_data_bottom" class = "row">
+                        <div id = "apply_table" class="col">
+                          <table>
+                            <tr id = "table_top">
+                              <td><a id="apply_date">2020년 07월 28일 ~ 2020년 07월 28일 </a></td>
+                            </tr>
+                            <tr id = "table_bottom">
+                              <td>
+                                외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박 사유
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                    </div>
+                    <div id = "apply_content" class="row">
+                      <div id = "apply_table" class="col">
+                        <table>
+                          <tr id = "table_top">
+                            <td><a id="apply_date">2020년 07월 28일 ~ 2020년 07월 28일 </a></td>
+                          </tr>
+                          <tr id = "table_bottom">
+                            <td>
+                              외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박 사유
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <div id = "apply_button">
+                      <div id="pageNumberList">
+                            <ul id="pageNumber" class="pagination">
+                              <li class="page-item"><a id="pageLeft" class="page-link" href="#">◀</a></li>
+                              <li class="page-item"><a id="pageNum" class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a id="pageNum" class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a id="pageNum" class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a id="pageRight"class="page-link" href="#">▶</a></li>
+                            </ul>
+                      </div>
+                      <div>
+                        <button type = "submit" id = "apply_write" class = "btn btn-primary">외박 신청</button>
+                      </div>
                     </div>
                 </form>
             </div>
