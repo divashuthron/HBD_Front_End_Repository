@@ -29,7 +29,6 @@
                 <h1 class="display-4 text-center">나의 외박 내역</h1>
             </div>
             <div id = "wrapper_bottom" class="container">
-                <form method = "post" actionn = "#" id = "apply_form">
                     <div id = "apply_data_top" class = "row">
                         <div id = "apply_table" class = "col">
                           <table>
@@ -38,7 +37,7 @@
                               <td></td>
                             </tr>
                             <tr id = "table_bottom">
-                              <td>
+                              <td id="reason">
                                 외박 사유 외박 사유 외박 사유 외박 사유 외박 사유 외박
                               </td>
                               <td id="reviseBtn">
@@ -109,7 +108,7 @@
                     </div>
                     <div id = "apply_button">
                       <div id="pageNumberList">
-                            <ul id="pageNumber" class="pagination pagination-sm">
+                            <ul id="pageNumber" class="pagination pagination-sm justify-content-center">
                               <li class="page-item"><a id="pageLeft" class="page-link" href="#">◀</a></li>
                               <li class="page-item"><a id="pageNum" class="page-link active" href="#">1</a></li>
                               <li class="page-item"><a id="pageNum" class="page-link" href="#">2</a></li>
@@ -121,7 +120,6 @@
                         <button type = "submit" id = "apply_write" class = "btn btn-primary">외박 신청</button>
                       </div>
                     </div>
-                </form>
             </div>
         </div>
     </body>
