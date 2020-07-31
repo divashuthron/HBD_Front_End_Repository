@@ -86,12 +86,14 @@ body{
 #objection_container #wrapper_bottom #objection_form #objection_button #objection_write {
     width: 100px;
     height: 40px;
+    font-weight: bold;
     background-color: rgb(252,180,22);
     border-color: rgb(252,180,21);
+    color : black;
 }
 
 #objection_container #wrapper_bottom #objection_form #objection_button #objection_write:hover{
-  font-size: 18px;
+  font-size: 19px;
   transition: all 0.2s;
 }
 
