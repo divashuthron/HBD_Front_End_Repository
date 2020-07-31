@@ -42,6 +42,7 @@ body{
     padding-bottom: 1%;
     border-bottom: 1px solid;
     border-color: rgb(200, 200, 200);
+
 }
 /* 테이블1 */
 #apply_container #wrapper_bottom #apply_form #apply_data_top #apply_table table,td{
@@ -51,12 +52,18 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_top #apply_table #table_top{
-    background-color: rgb(244,244,244);
+    background-color: rgb(252,180,22);
+
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_top #apply_table #table_top td{
     padding-left: 2%;
+<<<<<<< HEAD
 
+=======
+    color: rgb(25,25,25);
+    opacity: 0.7;
+>>>>>>> aab5f01f144468cc6e5b755855b5dfe7a5d5fbba
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_top #apply_table #table_top td button{
@@ -87,7 +94,11 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_top #apply_table #table_bottom #reviseBtn{
+<<<<<<< HEAD
     padding-right: 10%;
+=======
+    padding-right: 5%;
+>>>>>>> aab5f01f144468cc6e5b755855b5dfe7a5d5fbba
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_top #apply_table #table_bottom #reviseBtn #revise{
@@ -112,11 +123,12 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_middle #apply_table #table_top{
-  background-color: rgb(244,244,244);
+  background-color: rgb(252,180,22);
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_middle #apply_table #table_top td{
   padding-left: 2%;
+  opacity: 0.7;
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_middle #apply_table #table_bottom{
@@ -137,7 +149,11 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_middle #apply_table #table_bottom #reviseBtn{
+<<<<<<< HEAD
     padding-right: 10%;
+=======
+    padding-right: 5%;
+>>>>>>> aab5f01f144468cc6e5b755855b5dfe7a5d5fbba
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_middle #apply_table #table_bottom td{
@@ -152,11 +168,12 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_bottom #apply_table #table_top{
-  background-color: rgb(244,244,244);
+  background-color: rgb(252,180,22);
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_bottom #apply_table #table_top td{
   padding-left: 2%;
+  opacity: 0.7;
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_bottom #apply_table #table_bottom{
@@ -177,7 +194,11 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_data_bottom #apply_table #table_bottom #reviseBtn{
+<<<<<<< HEAD
     padding-right: 10%;
+=======
+    padding-right: 5%;
+>>>>>>> aab5f01f144468cc6e5b755855b5dfe7a5d5fbba
 
 }
 
@@ -192,11 +213,12 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_content #apply_table #table_top{
-  background-color: rgb(244,244,244);
+  background-color: rgb(252,180,22);
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_content #apply_table #table_top td{
   padding-left: 2%;
+  opacity: 0.7;
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_content #apply_table #table_bottom{
@@ -217,7 +239,11 @@ body{
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_content #apply_table #table_bottom #reviseBtn{
+<<<<<<< HEAD
     padding-right: 10%;
+=======
+    padding-right: 5%;
+>>>>>>> aab5f01f144468cc6e5b755855b5dfe7a5d5fbba
 }
 
 #apply_container #wrapper_bottom #apply_form #apply_content #apply_table #table_bottom td{
