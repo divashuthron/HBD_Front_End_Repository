@@ -110,8 +110,34 @@
 
                 <div id = "bottom_content">
                     <div id = "bottom_left_content">
-                        <div id = "collage_notice">
-                            <!-- 크롤링 데이터 삽입 장소 -->
+                        <div id = "collage_notice" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#collage_notice" data-slide-to="0" class="active"></li>
+                                <li data-target="#collage_notice" data-slide-to="1"></li>
+                                <li data-target="#collage_notice" data-slide-to="2"></li>
+                            </ul>
+
+                              <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="resources/images/testnoticeimage.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="resources/images/testnoticeimage2.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="resources/images/testnoticeimage3.jpg">
+                                </div>
+                            </div>
+
+                              <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#collage_notice" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#collage_notice" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>              
                         </div>
                     </div>
                     <div id = "bottom_right_content">
