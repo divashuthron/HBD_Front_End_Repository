@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="kr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <!-- icon -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="resources/css/StayApply.css">
+
+        <title>[한반도] 생활관 통합 정보 시스템</title>
+    </head>
+    <body>
+        <div id = "objection_container">
+            <div id = "wrapper_top" class="jumbotron">
+                <h1 class="display-4 text-center">외박 신청</h1>
+            </div>
+            <div id = "wrapper_bottom" class="container">
+                <div id = "objection_subtitle">
+                    외박 신청
+                </div>
+                <form method = "post" actionn = "#" id = "objection_form">
+                    <div id = "objection_data_top" class = "row">
+                        <div id = "room_number" class = "col">
+                            <a style="font-size: 20px;">호실　</a><br>
+                            <input type = "text" id = "roomNumber" value = "000" disabled> 호
+                        </div>
+
+                    </div>
+                    <div id = "objection_data_middle" class = "row">
+                        <div id = "user_name" class = "col">
+                            <a style="font-size: 20px;">이름　</a><br>
+                            <input type = "text" id = "userName" value = "홍길동" disabled>
+                        </div>
+                    </div>
+                    <div id = "objection_data_bottom" class = "row">
+                        <div id = "penalty_date" class="col">
+                            <a style="font-size: 20px;">일자　</a><br>
+                            <input type = "text" id="penaltyDate" value="2020-00-00" disabled>
+                        </div>
+                        <div id = "penalty_status" class="col">
+                            <a style="font-size: 20px;">상태　</a><br>
+                            <i id="penaltyStatus" class="fas fa-exclamation-triangle"></i>　미승인 상태
+                        </div>
+                    </div>
+                    <div id = "objection_content">
+                        <a style="font-size: 20px; font-weight: bold;">이의 제기 사유</a>
+                        <textarea id = "objectionContent" class="form-control" rows="10" style="resize: none;"></textarea>
+                    </div>
+                    <div id = "objection_button">
+                        <button type = "submit" id = "objection_write" class = "btn btn-primary">확인</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    <!-- Script -->
+    <script type="text/javascript" src="resources/js/ObjectionWrite.js"></script>
+</html>

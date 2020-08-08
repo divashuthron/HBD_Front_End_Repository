@@ -444,13 +444,30 @@ html, body {
     margin-right: 2.7%;
 }
 
+#index_container #wrap_content #bottom_content #bottom_left_content #collage_notice .carousel-indicators li {
+    background-color: rgb(252, 180, 22);
+}
+
+#index_container #wrap_content #bottom_content #bottom_left_content #collage_notice .carousel-inner {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 500px;
+}
+
+#index_container #wrap_content #bottom_content #bottom_left_content #collage_notice .carousel-inner img {
+    vertical-align: middle;
+    line-height: 500px;
+    width: 95%;
+    height: 95%;
+}
+
 #index_container #wrap_content #bottom_content #bottom_right_content {
     background-color: white;
     font-weight: bold;
     font-size: 28px;
     padding: 2% 3% 3% 3%;
 }
-
 
 #index_container #wrap_content #bottom_content #bottom_right_content #notice1 {
     margin-top: 1.5%;
