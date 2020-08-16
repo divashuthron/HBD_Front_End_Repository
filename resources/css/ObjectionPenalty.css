@@ -29,7 +29,7 @@ body{
 }
 
 #penalty_container #wrapper_bottom {
-    
+
 }
 
 #penalty_container #wrapper_bottom #penalty_subtitle {
@@ -60,8 +60,18 @@ body{
 #penalty_container #wrapper_bottom #objection_form #penalty_button * {
     width: 100px;
     height: 40px;
+    background-color: rgb(252, 180, 22);
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    border:0;
 }
 
 #penalty_container #wrapper_bottom #objection_form #penalty_button #penalty_back {
-    margin-right: 1%;   
+    margin-right: 1%;
+}
+#penalty_container #wrapper_bottom #objection_form #penalty_button #penalty_back:hover{
+  background-color: rgb(243, 156, 18);
+}
+#penalty_container #wrapper_bottom #objection_form #penalty_button #penalty_objection:hover{
+  background-color: rgb(243, 156, 18);
 }
