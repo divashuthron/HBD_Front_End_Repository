@@ -14,10 +14,6 @@ body{
     background-color: rgb(240, 240, 240);
 }
 
-#penalty_container {
-    
-}
-
 #penalty_container #wrapper_top {
     height: 300px;
     background: url(../images/MyPenalty.jpg);
