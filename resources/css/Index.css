@@ -91,7 +91,7 @@ html, body {
 #index_container #wrap_content #top_content #user_data #user_status #btn_changestatus:not(:hover) {
     font-size: 14px;
     opacity: 1;
-    transition: 0.2s;
+    transition: all 0.2s;
 }
 
 #index_container #wrap_content #top_content #location_button button {
