@@ -31,27 +31,55 @@ body{
     margin-top: 2.5%;
 }
 
-#complain_container #wrapper_bottom #complain_form #complain_data_top {
+#complain_container #wrapper_bottom #complain_form #complain_data_name{
     font-weight: bold;
     padding-bottom: 1%;
     border-bottom: 1px solid;
     border-color: rgb(200, 200, 200);
 }
 
+#complain_container #wrapper_bottom #complain_form #complain_data_top {
+    font-weight: bold;
+    border-bottom: 1px solid;
+    border-color: rgb(200, 200, 200);
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_top{
+    padding-top: 1%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_top #complain_area{
+    padding-bottom:
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_top #complain_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 #complain_container #wrapper_bottom #complain_form #complain_data_top #complain_area #complan_date{
     margin-left: 70%;
 }
 
-#complain_container #wrapper_bottom #complain_form #complain_data_middle #complain_area {
-    margin-top: 1%;
+#complain_container #wrapper_bottom #complain_form #complain_data_middle{
+    padding-top: 1%;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_middle #complain_area label{
+    font-weight: bold;
+}
+
+#complain_container #wrapper_bottom #complain_form #complain_data_middle #complain_area a{
+    padding-left: 1%;
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_content #complain_area {
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_content #complain_area #complain_textarea{
     width: 100%;
+    resize: none;
 }
 
 
@@ -80,31 +108,31 @@ body{
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_button #complain_write:hover{
-  font-size: 19px;
+  opacity: 0.8;
   transition: all 0.2s;
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_button #complain_write:not(:hover){
-  font-size: 16px;
+  opacity: 1.0;
   transition: all 0.2s;
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_button #complain_revise:hover{
-  font-size: 19px;
+  opacity: 0.8;
   transition: all 0.2s;
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_button #complain_revise:not(:hover){
-  font-size: 16px;
+  opacity: 1.0;
   transition: all 0.2s;
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_button #complain_delete:hover{
-  font-size: 19px;
+  opacity: 0.8;
   transition: all 0.2s;
 }
 
 #complain_container #wrapper_bottom #complain_form #complain_button #complain_delete:not(:hover){
-  font-size: 16px;
+  opacity: 1.0;
   transition: all 0.2s;
 }

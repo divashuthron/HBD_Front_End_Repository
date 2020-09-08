@@ -1,0 +1,93 @@
+@font-face {
+    font-family:'NanumBarunGothic';
+    src: url('resources/font/NanumBarunGothic') format('truetype');
+}
+
+* {
+
+    /* 개발 테스트용 테두리 설정 */
+    /* border: 1px solid black; */
+
+}
+body{
+    background-color: rgba(240, 240, 240);
+}
+/* input,textarea:focus {
+  outline:2px solid black;
+  box-shadow: 0 0 3px black;
+} */
+
+
+
+#penaltylist_box #top_content {
+    height: 300px;
+    background-image: url("../images/MyPenalty.jpg");
+    background-size: cover;
+    padding-top: 20px;
+}
+
+#penaltylist_box #top_content h2 {
+    margin-top: 7%;
+    font-weight: bold;
+    color:  rgb(255, 255, 255);
+}
+#penaltylist_box #bottom_content #bottom_content{
+
+
+
+}
+
+#penaltylist_box #bottom_content #penaltylist_content  #table_content  {
+display: flex;
+flex-direction: row;
+text-align: center;
+width:1020px;
+height: 485px;
+}
+
+#penaltylist_box #bottom_content #penaltylist_content   #penaltylist_title{
+    font-size:36px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#penaltylist_box #bottom_content #penaltylist_content  #table_content #tablebox_left  {
+padding-right: 3%;
+}
+#penaltylist_box #bottom_content #penaltylist_content  #table_content #tablebox_left table {
+  border-top:1px solid rgb(51, 51, 51);
+  width:500px;
+}
+
+#penaltylist_box #bottom_content #penaltylist_content  #table_content #tablebox_left table th,td {
+  border-bottom:1px solid rgb(51, 51, 51);
+  padding: 4px;
+  text-align: center;
+}
+#penaltylist_box #bottom_content #penaltylist_content #table_content #tablebox_right {
+padding-bottom: 15%;
+}
+#penaltylist_box #bottom_content #penaltylist_content  #table_content #tablebox_right table {
+  border-top:1px solid rgb(51, 51, 51);
+  width:500px;
+}
+
+#penaltylist_box #bottom_content #penaltylist_content  #table_content #tablebox_right table th,td {
+  border-bottom:1px solid rgb(51, 51, 51);
+  padding: 4px;
+  text-align: center;
+}
+#penaltylist_box #bottom_content #penaltylist_content #btn_content #btn_correct  {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(252, 180, 22);
+  font-weight: bold;
+  border:0;
+  border-radius: 5px;
+  margin-bottom: 10%;
+  float: right;
+}
+#penaltylist_box #bottom_content #penaltylist_content #btn_content #btn_correct:hover{
+    background-color: rgb(243, 156, 18);
+}
