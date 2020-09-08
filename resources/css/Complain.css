@@ -4,11 +4,21 @@
 }
 
 * {
+<<<<<<< Updated upstream
     font-family: 'NanumBarunGothic';
     font-size: 16px;
     /* 개발 테스트용 테두리 설정 */
 
 }
+=======
+    /* 개발 테스트용 테두리 설정 */
+    /* border: 1px solid black; */
+}
+
+body{
+    background-color: rgba(240, 240, 240);
+}
+>>>>>>> Stashed changes
 
 body{
     background-color: rgb(240, 240, 240);

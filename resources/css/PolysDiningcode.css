@@ -31,7 +31,7 @@ body {
 
 #wrapper_pictures {
     width: 100%;
-    height: 600px;
+    height: 1200px;
 }
 
 #wrapper_pictures {
@@ -41,22 +41,22 @@ body {
 #wrapper_pictures .top_left, #wrapper_pictures .bottom_left {
     text-align: center;
     float: left;
-    width: 50%;
+    width: 40%;
     height: 50%;
+    margin-left: 10%;
 }
 
 #wrapper_pictures .top_right, #wrapper_pictures .bottom_right {
     text-align: center;
-    float: right;
-    width: 50%;
+    float: left;
+    width: 40%;
     height: 50%;
+    margin-right: 10%:
 }
 
 #wrapper_pictures * img {
-    width: auto; height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    border: 5px solid greenyellow;
+    width: 100%;
+    height: 100%;
 }
 
 #wrapper_other {
